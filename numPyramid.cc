@@ -1,6 +1,6 @@
 #include <iostream>
-#include <cmath>
-#include <iomanip>
+#include <cmath>   // for pow()
+#include <iomanip> // for setw()
 using namespace std;
 
 
@@ -19,9 +19,6 @@ int main()
 		{
 			//equation for the level
 			num1 = num1 + pow(10, i);
-
-			//find out how to make the pyramid with the numbers and equation to center
-			//figure out a way to make the numbers non-scientific	
 
 			//print out the number and answer for each level
 			result = pow(num1, 2);
